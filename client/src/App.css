@@ -1,0 +1,110 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  
+}
+body {
+  background-color: lightgray;
+}
+#chartcontainer{
+width: 700px;
+margin: 20px;
+
+}
+.stock-heading{
+  margin-left: 20px;
+  margin-top:40px;
+  font-size: 35px;
+  font-family: 'DM Sans', sans-serif;
+}
+.stock-price{
+  margin-left: 20px;
+  margin-top:10px;
+  font-size: 35px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+/* You just need to get this field - start */
+
+.search-box {
+  width: 600px;
+  position: relative;
+  display: flex;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 20px;
+}
+
+.search-input {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  padding: 15px 45px 15px 15px;
+
+  color: lightgray;
+  border-radius: 5px;
+  border:none;
+  transition: all .4s;
+}
+
+.search-input:focus {
+  border:2px solid #6c6c6c ;
+  outline:none;
+  box-shadow: 0 1px 12px #b8c6db;
+  -moz-box-shadow: 0 1px 12px #b8c6db;
+  -webkit-box-shadow: 0 1px 12px #b8c6db;
+}
+
+.search-btn {
+  background-color: transparent;
+  font-size: 18px;
+  padding: 6px 9px;
+  margin-left:-45px;
+  border:none;
+  color: #6c6c6c;
+  transition: all .4s;
+  z-index: 10;
+}
+
+.search-btn:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  color: black;
+}
+
+.search-btn:focus {
+  outline:none;
+  color:black;
+}
+
+/* You just need to get this field - end */
+
+.footer {
+  position:fixed;
+  bottom:5px;
+}
+
+.footer p {
+  font-family: 'Montserrat', sans-serif;
+  font-size:12px;
+  color:#000;
+}
+
+.footer a {
+  color: #fff;
+  transition: all .4s;
+}
+
+.footer a:hover {
+  color: #eaeaeb;
+}
