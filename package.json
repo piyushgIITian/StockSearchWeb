@@ -1,0 +1,29 @@
+{
+  "name": "epifsd_assignment",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm start --prefix server",
+    "client": "npm start --prefix client",
+    "serveri": "cd server & npm i ",
+    "clienti": "cd client & npm i",
+    "install": "concurrently \"npm run serveri\" \"npm run clienti\"",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyushgIITian/StockSearchWeb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piyushgIITian/StockSearchWeb/issues"
+  },
+  "homepage": "https://github.com/piyushgIITian/StockSearchWeb#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
